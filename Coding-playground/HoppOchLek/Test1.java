@@ -24,7 +24,6 @@ public class Test1 {
         if (age > 20) {
             System.out.println("Welcome!");
         }
-    
     }
     
 }
