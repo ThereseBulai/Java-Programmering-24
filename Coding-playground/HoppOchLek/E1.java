@@ -21,8 +21,8 @@ public class E1 {
  //Övning 1.15
 
         String sentence = "Many things of the world is round";
-        System.out.println(sentence.indexOf("the"));
-        int index = sentence.indexOf("the");
+        System.out.println(sentence.indexOf("a"));
+        int index = sentence.indexOf("a");
 
         System.out.println("The word was found at index:" + index);
         }
