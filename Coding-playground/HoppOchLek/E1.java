@@ -42,7 +42,13 @@ public class E1 {
     int Sn = n * (n + 1) / 2;
     System.out.println(Sn);
     */
-
+ 
+    //Övning 1.18
+    String originalString = "Hey, I think you are relly cool!";
+    String.
+    System.out.println(originalString);
+    
+    
 
     
 
