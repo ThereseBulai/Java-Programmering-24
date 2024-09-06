@@ -29,10 +29,22 @@ public class E1 {
         System.out.println("The word was found at index:" + index);
  */     
 
- //övning 1.16
+ /*//övning 1.16
     int a = 2, b = 4, c = 6, temp = a;
+    a = b;
+    b = c;
+    c = temp; 
     System.out.println("A= " + (a=b) + " B= " + (b=c) + " C= " + (c=temp));
+ */
 
+   /*//övning 1.17
+    int n = 236;
+    int Sn = n * (n + 1) / 2;
+    System.out.println(Sn);
+    */
+
+
+    
 
     }
     
