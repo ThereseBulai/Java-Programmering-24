@@ -44,10 +44,18 @@ public class E1 {
     */
  
     //Övning 1.18
-    String originalString = "Hey, I think you are relly cool!";
-    String.
-    System.out.println(originalString);
-    
+   /*  String originalString = "Hey, I think you are relly cool!";
+    int countwords = originalString.split(" ").length;
+    System.out.println("the sentence " +  originalString + " has " + countwords + " words in it");
+    */
+
+    String reversedString = "Hey, I think you are really cool!";
+    StringBuffer sbr = new StringBuffer(reversedString);
+        // To reverse the string
+        sbr.reverse();
+        System.out.println(sbr);
+
+
     
 
     
