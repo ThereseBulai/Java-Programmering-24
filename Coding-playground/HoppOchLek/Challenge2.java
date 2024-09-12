@@ -45,26 +45,7 @@ public class Challenge2 {
 
 // to-do lista
 
-import java.util.Scanner;
 
-    public class MenuSelection {
-    public static void main(String[] args) {
-       Scanner scanner = new Scanner(System.in);
-       
-       System.out.println("Choose an option:");
-       System.out.println("1. Start");
-       System.out.println("2. Settings");
-       System.out.println("3. Exit");
-       
-       int choice = scanner.nextInt();
-       
-       switch (choice) {
-          // To do: Implement a switch case which displays a message depending on user input
-       }
-       
-       scanner.close();
-   }
-}
 
 
     }
