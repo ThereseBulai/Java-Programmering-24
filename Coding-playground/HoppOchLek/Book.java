@@ -1,15 +1,14 @@
-public E3{public static void main(String[]args);{
-
-public class Book {
+   class Book {
 
        String title;
        String author;
        int year;
-    }
+   
 
-   Book bok = new Book();
-    
-}
+    Book bok = new Book();
 
+      System.out.println("Title: " + title);
+      System.out.println("Author:" + author);
+      System.out.println("Year: " + year);
 
 }
