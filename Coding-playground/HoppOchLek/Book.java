@@ -11,9 +11,15 @@ public class Book {
       
 
    Book bok = new Book();
+   bok.title = "Lemon";
+   bok.author = "Meep";
+   bok.year = 2019;
 
+   System.out.println(bok.title);
+   System.out.println(bok.author);
+   System.out.println(bok.year);
 }
-
+}
 
  /* 
    Book(String title, String author, int year) {
@@ -49,4 +55,3 @@ public class Book {
 */
 
 
-}
