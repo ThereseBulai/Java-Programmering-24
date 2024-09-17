@@ -4,14 +4,20 @@ public class Student {
     double grade;
 
     Student() {
-        this.name = "Maja";
+        this.name = "Okänt";
+        this.age = 10;
+        this.grade = 8;
+     }
+
+    Student(String name) {
+        this.name = name;
         this.age = 10;
         this.grade = 8;
      }
     
     public static void main (String [] args){
-        Student elev = new Student();
-        elev.name = "Kalle-hopp";
+        Student elev = new Student("Karl");
+        
         elev.age = 8;
         elev.grade = 10;
       
