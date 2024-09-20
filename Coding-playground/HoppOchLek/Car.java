@@ -5,7 +5,7 @@ public class Car {
     String colour;
     int year;
 
-    // nedan är tre constructors
+    // nedan är tre constructors. Den överst är den som "sätter alla", "modern".
     Car(String make, String model, String colour, int year) {
         this.make = make;
         this.model = model;
@@ -14,14 +14,12 @@ public class Car {
 
     }
 
-    Car (String make, String model){
-       this.make = make;
-       this.model = model;
-       this.year = year;
+    Car (String make, String model, int year){
+       this(make, model, "Unknown", year);
     }
 
-    Car (String model){
-    this.make = make;
+    Car (String make){
+        this(make, "Unknown","Unknown", 0);
     }
 
 
@@ -40,7 +38,7 @@ public class Car {
         car1.printDetails();
 
 
-        Car car2 = new Car("Toyota", "Yaris", "Unknown", 2024);
+        Car car2 = new Car("Toyota", "Yaris", 2024);
         car2.printDetails();
 
 
