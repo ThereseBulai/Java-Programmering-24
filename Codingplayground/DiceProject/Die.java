@@ -8,7 +8,7 @@ public class Die {
 
     // konstruktor antal sidor
     public Die(int dieSides) {
-        dieSides = 6;
+       this.dieSides = dieSides;
     }
 
     // getter för konstruktorn
